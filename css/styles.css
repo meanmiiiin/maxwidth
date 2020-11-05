@@ -1,5 +1,5 @@
 body{
-  background-color:#f5feff;
+  background-color:orange;
 }
 
 h1,h3{
@@ -39,45 +39,44 @@ img{
 
 }
 
-
-@media screen and (min-width: 552px) {
+@media screen and (max-width: 992px) {
   body {
-    background-color: #d6e0f0;
-  }
-
-  .image-caption{
-    border: 5px solid #2d2d2d;
-    font-size:14px;
-    width:100%;
-    padding:20px;
-  }
-
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #f7f2e7;
-  }
-
-    .image-caption{
-      border: 5px solid #2d2d2d;
-      font-size:16px;
-      width:40%;
-    }
-
-
-}
-
-@media screen and (min-width: 992px) {
-  body {
-    background-color: #e0ece4;
+    background-color: green;
 
   }
 
-  .image-caption{
+  /* .image-caption{
 
     border: 5px solid #2d2d2d;
     width:25%;
 
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blue;
   }
+
+    /* .image-caption{
+      border: 5px solid #2d2d2d;
+      font-size:16px;
+      width:40%;
+    } */
+
+
+}
+
+@media screen and (max-width: 552px) {
+  body {
+    background-color: red;
+  }
+
+  /* .image-caption{
+    border: 5px solid #2d2d2d;
+    font-size:14px;
+    width:100%;
+    padding:20px;
+  }*/
+
 }
